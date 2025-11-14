@@ -1,0 +1,13 @@
+﻿# Normalize line endings for text files
+* text=auto
+
+# Binary files — keep as-is
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+
+# Ensure notebooks use LF
+*.ipynb text eol=lf
